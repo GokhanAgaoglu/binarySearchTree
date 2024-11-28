@@ -1,0 +1,21 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+- Root: 7  
+- 7'nin Solunda: 5  
+- 5'in Solunda: 1  
+  - 1'in Solunda: 0  
+  - 1'in Sağında: 3  
+    - 3'ün Solunda: 2  
+    - 3'ün Sağında: 4  
+- 5'in Sağında: 6  
+- 7'nin Sağında: 8  
+- 8'in Sağında: 9  
+
+                        7
+                       / \
+                      5   8
+                     / \   \
+                    1   6   9
+                   / \
+                  0   3
+                     / \ 
+                    2   4
